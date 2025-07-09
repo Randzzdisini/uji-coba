@@ -1,0 +1,48 @@
+body {
+    background-image: url(pexels-eberhardgross-2310713.jpg);
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gamhead {
+    width: 550px;
+    height: auto;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;                
+}
+
+.tombol ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 125px;
+}
+
+.tombol ul li {
+    margin: 15px;
+}
+
+.tombol ul li a {
+    color: #2a9b9f;
+    background-color: rgb(235, 251, 255);
+    padding: 20px 40px;
+    border: 3px solid #79a1f9;
+    border-radius: 999px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.tombol ul li a:hover {
+    color: #2a67c8;
+    background-color: rgb(220, 247, 255);
+}
